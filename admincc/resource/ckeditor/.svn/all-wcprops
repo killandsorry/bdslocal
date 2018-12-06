@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/vchat/!svn/ver/1/admin/resource/ckeditor
+END
+ckeditor.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/vchat/!svn/ver/1/admin/resource/ckeditor/ckeditor.js
+END
+config.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/vchat/!svn/ver/1/admin/resource/ckeditor/config.js
+END
+LICENSE.md
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/vchat/!svn/ver/1/admin/resource/ckeditor/LICENSE.md
+END
+contents.css
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/vchat/!svn/ver/1/admin/resource/ckeditor/contents.css
+END
+ckeditor_php4.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/vchat/!svn/ver/1/admin/resource/ckeditor/ckeditor_php4.php
+END
+ckeditor_php5.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/vchat/!svn/ver/1/admin/resource/ckeditor/ckeditor_php5.php
+END
+CHANGES.md
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/vchat/!svn/ver/1/admin/resource/ckeditor/CHANGES.md
+END
+ckeditor.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/vchat/!svn/ver/1/admin/resource/ckeditor/ckeditor.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/vchat/!svn/ver/1/admin/resource/ckeditor/README.md
+END
+build-config.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/vchat/!svn/ver/1/admin/resource/ckeditor/build-config.js
+END
+styles.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/vchat/!svn/ver/1/admin/resource/ckeditor/styles.js
+END

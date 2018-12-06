@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^cache/([0-9]*)/(.*)$ /banhang/static.php
+# BEGIN Compress text files
+<ifModule mod_deflate.c>
+  SetOutputFilter DEFLATE
+</ifModule>
+# END Compress text files
+<IfModule mod_expires.c>
+	# Enable expirations
+	ExpiresActive On 
+	# Default directive
+	ExpiresDefault "access plus 1 year"
+</IfModule>

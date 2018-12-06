@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/vchat/!svn/ver/1/admin/resource/ckeditor/ckfinder/core/connector/php/php4/Core
+END
+FolderHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/vchat/!svn/ver/1/admin/resource/ckeditor/ckfinder/core/connector/php/php4/Core/FolderHandler.php
+END
+Connector.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/vchat/!svn/ver/1/admin/resource/ckeditor/ckfinder/core/connector/php/php4/Core/Connector.php
+END
+ImagesConfig.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/vchat/!svn/ver/1/admin/resource/ckeditor/ckfinder/core/connector/php/php4/Core/ImagesConfig.php
+END
+ThumbnailsConfig.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/vchat/!svn/ver/1/admin/resource/ckeditor/ckfinder/core/connector/php/php4/Core/ThumbnailsConfig.php
+END
+ResourceTypeConfig.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/vchat/!svn/ver/1/admin/resource/ckeditor/ckfinder/core/connector/php/php4/Core/ResourceTypeConfig.php
+END
+Xml.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/vchat/!svn/ver/1/admin/resource/ckeditor/ckfinder/core/connector/php/php4/Core/Xml.php
+END
+Hooks.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/vchat/!svn/ver/1/admin/resource/ckeditor/ckfinder/core/connector/php/php4/Core/Hooks.php
+END
+Config.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/vchat/!svn/ver/1/admin/resource/ckeditor/ckfinder/core/connector/php/php4/Core/Config.php
+END
+Factory.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/vchat/!svn/ver/1/admin/resource/ckeditor/ckfinder/core/connector/php/php4/Core/Factory.php
+END
+AccessControlConfig.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/vchat/!svn/ver/1/admin/resource/ckeditor/ckfinder/core/connector/php/php4/Core/AccessControlConfig.php
+END
+Registry.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/vchat/!svn/ver/1/admin/resource/ckeditor/ckfinder/core/connector/php/php4/Core/Registry.php
+END

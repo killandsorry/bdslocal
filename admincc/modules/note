@@ -1,0 +1,204 @@
+control trong form
+/*
+	--- Create hidden control ---
+	1. $id				: ID của control						(Exp: "action_id")
+	2. $name				: Tên của control						(Exp: "action")
+	3. $value			: Giá trị của control				(Exp: "insert")
+	4. $add_html		: Code HTML thêm vào					(Exp: "onFocus=\"this.value=''\"")
+	*/
+1 hidden /button trạng thai
+
+	/*
+	--- Create wysiwyg control ---
+	1. $titleControl	: Tiêu đề của control				(Exp: "Description")
+	2. $id				: ID của control						(Exp: "description_id")
+	3. $name				: Tên của control						(Exp: "description")
+	4. $value			: Giá trị của control				(Exp: "My company is FinalStyle")
+	5. $title			: Title của control					(Exp: "Your description")
+	6. $require			: Dữ liệu bắt buộc nhập				(Exp: "1" -> require; "0" -> not require)
+	7. $width			: Chiều rộng của textarea			(Exp: "200" px)
+	8. $height			: Chiều cao của textarea			(Exp: "100" px)
+	*/
+2 wysiwyg /fck cho nhập text 
+
+/*
+	--- Create textarea control ---
+	1. $titleControl	: Tiêu đề của control				(Exp: "Description")
+	2. $id				: ID của control						(Exp: "description_id")
+	3. $name				: Tên của control						(Exp: "description")
+	4. $value			: Giá trị của control				(Exp: "My company is FinalStyle")
+	5. $title			: Title của control					(Exp: "Your description")
+	6. $require			: Dữ liệu bắt buộc nhập				(Exp: "1" -> require; "0" -> not require)
+	7. $width			: Chiều rộng của textarea			(Exp: "200" px)
+	8. $height			: Chiều cao của textarea			(Exp: "100" px)
+	9. $add_html		: Code HTML thêm vào					(Exp: "onFocus=\"this.value=''\"")
+	10.$add_text		: Chuỗi text thêm vào sau control(Exp: "(dd/mm/yyyy)")
+	11.$wysiwyg			: Có thêm WYSIWYG không				(Exp: bbcode("", "add", "id_description"))
+
+	*/
+3 textarea
+
+	/*
+	--- Create password control ---
+	1. $titleControl	: Tiêu đề của control				(Exp: "Password")
+	2. $id				: ID của control						(Exp: "password_id")
+	3. $name				: Tên của control						(Exp: "password")
+	4. $value			: Giá trị của control				(Exp: "Password")
+	5. $title			: Title của control					(Exp: "Enter password")
+	6. $require			: Dữ liệu bắt buộc nhập				(Exp: "1" -> require; "0" -> not require)
+	7. $width			: Chiều rộng của passwordbox		(Exp: "150" px)
+	8. $height			: Chiều cao của passwordbox		(Exp: "20" px)
+	9. $maxlength		: Số ký tự trong passwordbox		(Exp: "100")
+	10.$add_html		: Code HTML thêm vào					(Exp: "onFocus=\"this.value=''\"")
+	11.$add_text		: Chuỗi text thêm vào sau control(Exp: "(dd/mm/yyyy)")
+	*/
+4 password
+
+
+	/*
+	--- Create text control ---
+	1. $titleControl	: Tiêu đề của control				(Exp: "Name")
+	2. $id				: ID của control						(Exp: "name_id")
+	3. $name				: Tên của control						(Exp: "name")
+	4. $value			: Giá trị của control				(Exp: "Mr. Tran")
+	5. $title			: Title của control					(Exp: "Full name")
+	6. $require			: Dữ liệu bắt buộc nhập				(Exp: "1" -> require; "0" -> not require)
+	7. $width			: Chiều rộng của textbox			(Exp: "150" px)
+	8. $height			: Chiều cao của textbox				(Exp: "20" px)
+	9. $maxlength		: Số ký tự trong textbox			(Exp: "100")
+	10.$breakControl	: Chuỗi phân cách các textbox		(Exp: " - ")
+	11.$add_html		: Code HTML thêm vào					(Exp: "onFocus=\"this.value=''\"")
+	12.$add_text		: Chuỗi text thêm vào sau control(Exp: "(dd/mm/yyyy)")
+	*/
+5 text
+
+/*
+	--- Create select_db_multi control ---
+	1. $titleControl	: Tiêu đề của control				(Exp: "Category")
+	2. $id				: ID của control						(Exp: "pro_category")
+	3. $name				: Tên của control						(Exp: "pro_category")
+	4. $array_multi	: Array chứa dữ liệu					(Exp: "$listAll")
+	5. $value_field	: Tên trường cần lấy giá trị		(Exp: "cat_id")
+	6. $name_field		: Tên trường cần hiển thị			(Exp: "cat_name")
+	7. $currentValue	: Giá trị hiện tại của control	(Exp: "1")
+	8. $title			: Title của control					(Exp: "Select city")
+	9. $require			: Dữ liệu bắt buộc nhập				(Exp: "1" -> require; "0" -> not require)
+	10.$width			: Chiều rộng của combobox			(Exp: "200" px)
+	11.$size				: Chiều cao của combobox			(Exp: "10" rows)
+	12.$multiple		: Chọn nhiều dữ liệu một lúc		(Exp: "1" -> multiple; "0" -> not multiple)
+	13.$add_html		: Code HTML thêm vào					(Exp: "onChange=\"alert('Hello world !')\"")
+	14.$add_text		: Chuỗi text thêm vào sau control(Exp: "(dd/mm/yyyy)")
+	*/
+6 select_db_multi
+
+/*
+	--- Create select_db_2_level control ---
+	1. $titleControl		: Tiêu đề của control				(Exp: "City")
+	2. $id					: ID của control						(Exp: "city_id")
+	3. $name					: Tên của control						(Exp: "city")
+	4. $db_query			: Class db_query						(Exp: "$db_select = new db_query(...)")
+	5. $value_field_lv1	: Tên trường giá trị optgroup		(Exp: "root_id")
+	6. $name_field_lv1	: Tên trường hiển thị optgroup	(Exp: "root_name")
+	7. $value_field_lv2	: Tên trường cần lấy giá trị		(Exp: "sub_id")
+	8. $name_field_lv2	: Tên trường cần hiển thị			(Exp: "sub_name")
+	9. $currentValue		: Giá trị hiện tại của control	(Exp: "1")
+	10.$title				: Title của control					(Exp: "Select city")
+	11.$require				: Dữ liệu bắt buộc nhập				(Exp: "1" -> require; "0" -> not require)
+	12.$width				: Chiều rộng của combobox			(Exp: "200" px)
+	13.$size					: Chiều cao của combobox			(Exp: "10" rows)
+	14.$multiple			: Chọn nhiều dữ liệu một lúc		(Exp: "1" -> multiple; "0" -> not multiple)
+	15.$add_html			: Code HTML thêm vào					(Exp: "onChange=\"alert('Hello world !')\"")
+	16.$add_text			: Chuỗi text thêm vào sau control(Exp: "(dd/mm/yyyy)")
+	*/
+7 select_db_2_level
+
+/*
+	--- Create select_db control ---
+	1. $titleControl	: Tiêu đề của control				(Exp: "City")
+	2. $id				: ID của control						(Exp: "city_id")
+	3. $name				: Tên của control						(Exp: "city")
+	4. $db_query		: Class db_query						(Exp: "$db_select = new db_query(...)")
+	5. $value_field	: Tên trường cần lấy giá trị		(Exp: "cit_id")
+	6. $name_field		: Tên trường cần hiển thị			(Exp: "cit_name")
+	7. $currentValue	: Giá trị hiện tại của control	(Exp: "1")
+	8. $title			: Title của control					(Exp: "Select city")
+	9. $require			: Dữ liệu bắt buộc nhập				(Exp: "1" -> require; "0" -> not require)
+	10.$width			: Chiều rộng của combobox			(Exp: "200" px)
+	11.$size				: Chiều cao của combobox			(Exp: "10" rows)
+	12.$multiple		: Chọn nhiều dữ liệu một lúc		(Exp: "1" -> multiple; "0" -> not multiple)
+	13.$add_html		: Code HTML thêm vào					(Exp: "onChange=\"alert('Hello world !')\"")
+	14.$add_text		: Chuỗi text thêm vào sau control(Exp: "(dd/mm/yyyy)")
+	*/
+8 select_db
+
+	/*
+	--- Create select control ---
+	1. $titleControl	: Tiêu đề của control				(Exp: "City")
+	2. $id				: ID của control						(Exp: "city_id")
+	3. $name				: Tên của control						(Exp: "city")
+	4. $array_option	: Mảng giá trị của control			(Exp: "$arrayCity = array("--[Select]--" => 0, "London" => 1, Manchester => 2,)")
+	5. $currentValue	: Giá trị hiện tại của control	(Exp: "1")
+	6. $title			: Title của control					(Exp: "Select city")
+	7. $require			: Dữ liệu bắt buộc nhập				(Exp: "1" -> require; "0" -> not require)
+	8. $width			: Chiều rộng của combobox			(Exp: "200" px)
+	9. $size				: Chiều cao của combobox			(Exp: "10" rows)
+	10.$multiple		: Chọn nhiều dữ liệu một lúc		(Exp: "1" -> multiple; "0" -> not multiple)
+	11.$add_html		: Code HTML thêm vào					(Exp: "onChange=\"alert('Hello world !')\"")
+	12.$add_text		: Chuỗi text thêm vào sau control(Exp: "(dd/mm/yyyy)")
+	*/
+9 select
+
+
+/*
+	--- Create getFile control ---
+	1. $titleControl	: Tiêu đề của control				(Exp: "Image")
+	2. $id				: ID của control						(Exp: "new_image_id")
+	3. $name				: Tên của control						(Exp: "new_image")
+	4. $title			: Title của control					(Exp: "Your avatar")
+	5. $require			: Dữ liệu bắt buộc nhập				(Exp: "1" -> require; "0" -> not require)
+	6. $size				: Chiều rộng của filebox			(Exp: "30" character)
+	7. $add_html		: Code HTML thêm vào					(Exp: "onFocus=\"this.value=''\"")
+	8. $add_text		: Chuỗi text thêm vào sau control(Exp: "(dd/mm/yyyy)")
+	*/
+10 getFile
+
+
+/*
+	--- Create radio control ---
+	1. $titleControl	: Tiêu đề của control				(Exp: "Gender")
+	2. $id				: ID của control						(Exp: "male_id|female_id")
+	3. $name				: Tên của control						(Exp: "male|female")
+	4. $value			: Giá trị của control				(Exp: "0|1")
+	5. $currentValue	: Giá trị hiện tại của control	(Exp: "0")
+	6. $title			: Chuỗi text bên cạnh control		(Exp: "Male|Female";)
+	7. $require			: Dữ liệu bắt buộc nhập				(Exp: "1" -> require; "0" -> not require)
+	8. $add_html		: Code HTML thêm vào					(Exp: "onClick=\"alert('Hello world !')\"")
+	9. $add_text		: Chuỗi text thêm vào sau control(Exp: "(dd/mm/yyyy)")
+	*/
+11 radio
+
+/*
+	--- Create checkbox control ---
+	1. $titleControl	: Tiêu đề của control				(Exp: "Option")
+	2. $id				: ID của control						(Exp: "new_hot_id|new_latest_id")
+	3. $name				: Tên của control						(Exp: "new_hot|new_latest")
+	4. $value			: Giá trị của control				(Exp: "1|1")
+	5. $currentValue	: Giá trị hiện tại của control	(Exp: "1|0")
+	6. $title			: Chuỗi text bên cạnh control		(Exp: "Tin nổi bật|Tin mới";)
+	7. $require			: Dữ liệu bắt buộc nhập				(Exp: "1" -> require; "0" -> not require)
+	8. $add_html		: Code HTML thêm vào					(Exp: "onClick=\"alert('Hello world !')\"")
+	9. $add_text		: Chuỗi text thêm vào sau control(Exp: "(dd/mm/yyyy)")
+	*/
+12 checkbox
+
+/*
+	--- Create button control ---
+	1. $typeControl	: Loại button							(Exp: "submit|reset")
+	2. $id				: ID của control						(Exp: "submit_id|reset_id")
+	3. $name				: Tên của control						(Exp: "submit|reset")
+	4. $value			: Giá trị của control				(Exp: "Submit|Reset")
+	5. $title			: Title của control					(Exp: "Click submit|Click Reset")
+	6. $add_html		: Code HTML thêm vào					(Exp: "onClick=\"checkForm()\"|''")
+	7. $add_text		: Chuỗi text thêm vào sau control(Exp: "(dd/mm/yyyy)")
+	*/
+13 button

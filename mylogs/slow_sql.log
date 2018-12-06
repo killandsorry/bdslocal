@@ -1,0 +1,669 @@
+02/10/2018 06:18:01 PM /admincc/modules/products/add.php
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0238239765
+IP:127.0.0.1SHOW FIELDS FROM products
+02/10/2018 06:18:01 PM /admincc/modules/products/add.php
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0093390942
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+02/10/2018 06:42:39 PM /admincc/modules/products/add.php
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0243577957
+IP:127.0.0.1SHOW FIELDS FROM products
+02/10/2018 06:42:39 PM /admincc/modules/products/add.php
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0167670250
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+02/10/2018 06:42:39 PM /admincc/modules/products/add.php
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0109221935
+IP:127.0.0.1SHOW FIELDS FROM products
+02/10/2018 06:42:39 PM /admincc/modules/products/add.php
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0062289238
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+02/10/2018 06:43:00 PM /sunshine-city-khu-do-thi-ciputra-nam-thang-long-tay-ho-ha-noi-p1
+File : 
+Query time : 0.0010008812
+IP:127.0.0.1SELECT * FROM products
+                        INNHER JOIN products_detail ON prd_id = pro_id
+                        WHERE pro_id = 1
+                        LIMIT 1
+03/10/2018 06:49:45 AM /
+File : 
+Query time : 0.0199718475
+IP:127.0.0.1SELECT * FROM categories
+                                  WHERE cat_active = 1
+03/10/2018 06:49:45 AM /
+File : 
+Query time : 0.0123741627
+IP:127.0.0.1SELECT * 
+                                                    FROM products
+                                                    WHERE pro_active = 1
+03/10/2018 06:49:47 AM /sunshine-city-khu-do-thi-ciputra-nam-thang-long-tay-ho-ha-noi-p1
+File : 
+Query time : 0.0440080166
+IP:127.0.0.1SELECT * FROM products
+                        INNHER JOIN products_detail ON prd_id = pro_id
+                        WHERE pro_id = 1
+                        LIMIT 1
+03/10/2018 06:49:47 AM /sunshine-city-khu-do-thi-ciputra-nam-thang-long-tay-ho-ha-noi-p1
+File : 
+Query time : 0.0073738098
+IP:127.0.0.1SELECT * FROM news 
+                                        WHERE new_pro_id = 1
+                                        LIMIT 5
+03/10/2018 06:50:29 AM /admincc/login.php
+File : 
+Query time : 0.0512969494
+IP:127.0.0.1SELECT adm_id 
+										 FROM admin_user
+										 WHERE adm_loginname = 'admin' AND adm_password = 'c4ca4238a0b923820dcc509a6f75849b' AND adm_active = 1 AND adm_delete = 0
+03/10/2018 06:50:29 AM /admincc/index.php
+File : 
+Query time : 0.0270271301
+IP:127.0.0.1SELECT * 
+								 FROM modules 
+								 
+								 ORDER BY mod_order ASC
+03/10/2018 06:50:34 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0163910389
+IP:127.0.0.1SELECT 	con_currency,con_exchange from configuration WHERE con_lang_id=1
+03/10/2018 06:50:34 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0200779438
+IP:127.0.0.1SELECT * FROM city WHERE cit_parent_id = 0
+03/10/2018 06:50:34 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0128879547
+IP:127.0.0.1SELECT * FROM investors
+03/10/2018 06:50:34 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0112538338
+IP:127.0.0.1SELECT * FROM designs
+03/10/2018 06:50:34 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0121471882
+IP:127.0.0.1SELECT * FROM constructions
+03/10/2018 06:50:34 AM /admincc/modules/products/listing.php
+File : D:\xampp_7.2\htdocs\bdslocal\classes\database.php
+Query time : 0.0024230480
+IP:127.0.0.1SELECT 	count(*) AS count
+										 FROM products
+										 WHERE 1  
+03/10/2018 06:50:37 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0372431278
+IP:127.0.0.1SHOW FIELDS FROM products
+03/10/2018 06:50:37 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0130839348
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+03/10/2018 06:56:38 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0223660469
+IP:127.0.0.1SHOW FIELDS FROM products
+03/10/2018 06:56:38 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0139281750
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+03/10/2018 06:56:45 AM /sunshine-city-khu-do-thi-ciputra-nam-thang-long-tay-ho-ha-noi-p1
+File : 
+Query time : 0.0012362003
+IP:127.0.0.1SELECT * FROM products
+                        INNHER JOIN products_detail ON prd_id = pro_id
+                        WHERE pro_id = 1
+                        LIMIT 1
+03/10/2018 06:56:51 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0244700909
+IP:127.0.0.1SHOW FIELDS FROM products
+03/10/2018 06:56:51 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0217230320
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+04/10/2018 08:32:25 AM /
+File : 
+Query time : 0.0317130089
+IP:127.0.0.1SELECT * FROM categories
+                                  WHERE cat_active = 1
+04/10/2018 08:32:25 AM /
+File : 
+Query time : 0.0178718567
+IP:127.0.0.1SELECT * 
+                                                    FROM products
+                                                    WHERE pro_active = 1
+04/10/2018 08:32:28 AM /sunshine-city-khu-do-thi-ciputra-nam-thang-long-tay-ho-ha-noi-p1
+File : 
+Query time : 0.0384759903
+IP:127.0.0.1SELECT * FROM products
+                        INNHER JOIN products_detail ON prd_id = pro_id
+                        WHERE pro_id = 1
+                        LIMIT 1
+04/10/2018 08:32:29 AM /sunshine-city-khu-do-thi-ciputra-nam-thang-long-tay-ho-ha-noi-p1
+File : 
+Query time : 0.0162310600
+IP:127.0.0.1SELECT * FROM news 
+                                        WHERE new_pro_id = 1
+                                        LIMIT 5
+04/10/2018 08:32:36 AM /admincc/login.php
+File : 
+Query time : 0.0417151451
+IP:127.0.0.1SELECT adm_id 
+										 FROM admin_user
+										 WHERE adm_loginname = 'admin' AND adm_password = 'c4ca4238a0b923820dcc509a6f75849b' AND adm_active = 1 AND adm_delete = 0
+04/10/2018 08:32:36 AM /admincc/index.php
+File : 
+Query time : 0.0234329700
+IP:127.0.0.1SELECT * 
+								 FROM modules 
+								 
+								 ORDER BY mod_order ASC
+04/10/2018 08:32:41 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0211341381
+IP:127.0.0.1SELECT 	con_currency,con_exchange from configuration WHERE con_lang_id=1
+04/10/2018 08:32:41 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0196371078
+IP:127.0.0.1SELECT * FROM city WHERE cit_parent_id = 0
+04/10/2018 08:32:41 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0113790035
+IP:127.0.0.1SELECT * FROM investors
+04/10/2018 08:32:41 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0110929012
+IP:127.0.0.1SELECT * FROM designs
+04/10/2018 08:32:41 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0129110813
+IP:127.0.0.1SELECT * FROM constructions
+04/10/2018 08:32:41 AM /admincc/modules/products/listing.php
+File : D:\xampp_7.2\htdocs\bdslocal\classes\database.php
+Query time : 0.0019681454
+IP:127.0.0.1SELECT 	count(*) AS count
+										 FROM products
+										 WHERE 1  
+04/10/2018 08:32:45 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0465729237
+IP:127.0.0.1SHOW FIELDS FROM products
+04/10/2018 08:32:45 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0232839584
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+04/10/2018 08:33:38 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0244278908
+IP:127.0.0.1SHOW FIELDS FROM products
+04/10/2018 08:33:38 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0160250664
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+04/10/2018 08:33:38 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0010690689
+IP:127.0.0.1SELECT * FROM city WHERE cit_parent_id = 0
+04/10/2018 08:33:38 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0014600754
+IP:127.0.0.1SELECT * FROM constructions
+04/10/2018 08:34:07 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0299241543
+IP:127.0.0.1SHOW FIELDS FROM products
+04/10/2018 08:34:07 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0136580467
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+04/10/2018 08:34:20 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0255560875
+IP:127.0.0.1SHOW FIELDS FROM products
+04/10/2018 08:34:20 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0218589306
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+04/10/2018 08:34:20 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0014009476
+IP:127.0.0.1SELECT * FROM designs
+04/10/2018 08:34:43 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0205669403
+IP:127.0.0.1SHOW FIELDS FROM products
+04/10/2018 08:34:43 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0232930183
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+04/10/2018 08:34:43 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : 
+Query time : 0.0046992302
+IP:127.0.0.1SELECT * FROM city WHERE cit_parent_id = 2
+04/10/2018 08:35:41 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0295112133
+IP:127.0.0.1SHOW FIELDS FROM products
+04/10/2018 08:35:41 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0203979015
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+04/10/2018 08:35:41 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0011119843
+IP:127.0.0.1SELECT * FROM city WHERE cit_parent_id = 0
+04/10/2018 08:51:53 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0010280609
+IP:127.0.0.1SELECT * FROM city WHERE cit_parent_id = 0
+04/10/2018 08:51:56 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : 
+Query time : 0.0014209747
+IP:127.0.0.1SELECT * FROM city WHERE cit_parent_id = 0
+04/10/2018 08:51:56 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0381448269
+IP:127.0.0.1SHOW FIELDS FROM products
+04/10/2018 08:51:56 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0299489498
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+04/10/2018 08:52:04 AM /sunshine-city-khu-do-thi-ciputra-nam-thang-long-tay-ho-ha-noi-p1
+File : 
+Query time : 0.0010950565
+IP:127.0.0.1SELECT * FROM products
+                        INNHER JOIN products_detail ON prd_id = pro_id
+                        WHERE pro_id = 1
+                        LIMIT 1
+04/10/2018 08:52:04 AM /sunshine-city-khu-do-thi-ciputra-nam-thang-long-tay-ho-ha-noi-p1
+File : 
+Query time : 0.0022249222
+IP:127.0.0.1SELECT * FROM news 
+                                        WHERE new_pro_id = 1
+                                        LIMIT 5
+04/10/2018 09:21:30 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0261809826
+IP:127.0.0.1SHOW FIELDS FROM products
+04/10/2018 09:21:30 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0126268864
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+04/10/2018 09:22:14 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0327401161
+IP:127.0.0.1SHOW FIELDS FROM products
+04/10/2018 09:22:14 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0164599419
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+04/10/2018 09:24:23 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0260410309
+IP:127.0.0.1SHOW FIELDS FROM products
+04/10/2018 09:24:23 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0130929947
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+04/10/2018 09:24:38 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0294280052
+IP:127.0.0.1SHOW FIELDS FROM products
+04/10/2018 09:24:38 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0147180557
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+06/10/2018 09:42:19 AM /
+File : 
+Query time : 0.0212180614
+IP:127.0.0.1SELECT * FROM categories
+                                  WHERE cat_active = 1
+06/10/2018 09:42:19 AM /
+File : 
+Query time : 0.0105021000
+IP:127.0.0.1SELECT * 
+                                                    FROM products
+                                                    WHERE pro_active = 1
+06/10/2018 09:43:59 AM /sunshine-city-khu-do-thi-ciputra-nam-thang-long-tay-ho-ha-noi-p1
+File : 
+Query time : 0.0420050621
+IP:127.0.0.1SELECT * FROM products
+                        INNHER JOIN products_detail ON prd_id = pro_id
+                        WHERE pro_id = 1
+                        LIMIT 1
+06/10/2018 09:43:59 AM /sunshine-city-khu-do-thi-ciputra-nam-thang-long-tay-ho-ha-noi-p1
+File : 
+Query time : 0.0012590885
+IP:127.0.0.1SELECT * FROM products
+                                          WHERE pro_district_id = 0
+                                          LIMIT 3
+06/10/2018 09:43:59 AM /sunshine-city-khu-do-thi-ciputra-nam-thang-long-tay-ho-ha-noi-p1
+File : 
+Query time : 0.0106670856
+IP:127.0.0.1SELECT * FROM news 
+                                        WHERE new_pro_id = 1
+                                        LIMIT 5
+06/10/2018 09:44:26 AM /admincc/login.php
+File : 
+Query time : 0.0437440872
+IP:127.0.0.1SELECT adm_id 
+										 FROM admin_user
+										 WHERE adm_loginname = 'admin' AND adm_password = 'c4ca4238a0b923820dcc509a6f75849b' AND adm_active = 1 AND adm_delete = 0
+06/10/2018 09:44:26 AM /admincc/index.php
+File : 
+Query time : 0.0189599991
+IP:127.0.0.1SELECT * 
+								 FROM modules 
+								 
+								 ORDER BY mod_order ASC
+06/10/2018 09:44:29 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0243389606
+IP:127.0.0.1SELECT 	con_currency,con_exchange from configuration WHERE con_lang_id=1
+06/10/2018 09:44:29 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0159230232
+IP:127.0.0.1SELECT * FROM city WHERE cit_parent_id = 0
+06/10/2018 09:44:29 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0109050274
+IP:127.0.0.1SELECT * FROM investors
+06/10/2018 09:44:30 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0113508701
+IP:127.0.0.1SELECT * FROM designs
+06/10/2018 09:44:30 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0111770630
+IP:127.0.0.1SELECT * FROM constructions
+06/10/2018 09:44:32 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0363471508
+IP:127.0.0.1SHOW FIELDS FROM products
+06/10/2018 09:44:32 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0145227909
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+06/10/2018 09:51:37 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.1750640869
+IP:127.0.0.1SHOW FIELDS FROM products
+06/10/2018 09:51:37 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0131330490
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+06/10/2018 09:53:34 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0217502117
+IP:127.0.0.1SHOW FIELDS FROM products
+06/10/2018 09:53:34 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0097279549
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+06/10/2018 10:38:29 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0277619362
+IP:127.0.0.1SHOW FIELDS FROM products
+06/10/2018 10:38:29 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0128698349
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+06/10/2018 12:38:36 PM /sunshine-city-khu-do-thi-ciputra-nam-thang-long-tay-ho-ha-noi-p1
+File : 
+Query time : 0.0010058880
+IP:127.0.0.1SELECT * FROM products
+                        INNHER JOIN products_detail ON prd_id = pro_id
+                        WHERE pro_id = 1
+                        LIMIT 1
+06/10/2018 07:38:50 PM /sunshine-city-khu-do-thi-ciputra-nam-thang-long-tay-ho-ha-noi-p1
+File : 
+Query time : 0.0020530224
+IP:127.0.0.1SELECT * FROM products
+                        INNHER JOIN products_detail ON prd_id = pro_id
+                        WHERE pro_id = 1
+                        LIMIT 1
+13/10/2018 08:00:31 AM /
+File : 
+Query time : 0.0279369354
+IP:127.0.0.1SELECT * FROM categories
+                                  WHERE cat_active = 1
+13/10/2018 08:00:31 AM /
+File : 
+Query time : 0.0132088661
+IP:127.0.0.1SELECT * 
+                                                    FROM products
+                                                    WHERE pro_active = 1
+13/10/2018 08:02:43 AM /sunshine-city-khu-do-thi-ciputra-nam-thang-long-tay-ho-ha-noi-p1
+File : 
+Query time : 0.0394208431
+IP:127.0.0.1SELECT * FROM products
+                        INNHER JOIN products_detail ON prd_id = pro_id
+                        WHERE pro_id = 1
+                        LIMIT 1
+13/10/2018 08:02:44 AM /sunshine-city-khu-do-thi-ciputra-nam-thang-long-tay-ho-ha-noi-p1
+File : 
+Query time : 0.0010859966
+IP:127.0.0.1SELECT * FROM products
+                                          WHERE pro_district_id = 0
+                                          LIMIT 3
+13/10/2018 08:02:44 AM /sunshine-city-khu-do-thi-ciputra-nam-thang-long-tay-ho-ha-noi-p1
+File : 
+Query time : 0.0140070915
+IP:127.0.0.1SELECT * FROM news 
+                                        WHERE new_pro_id = 1
+                                        LIMIT 5
+13/10/2018 08:26:37 AM /admincc/login.php
+File : 
+Query time : 0.0426588058
+IP:127.0.0.1SELECT adm_id 
+										 FROM admin_user
+										 WHERE adm_loginname = 'admin' AND adm_password = 'c4ca4238a0b923820dcc509a6f75849b' AND adm_active = 1 AND adm_delete = 0
+13/10/2018 08:26:37 AM /admincc/index.php
+File : 
+Query time : 0.0186638832
+IP:127.0.0.1SELECT * 
+								 FROM modules 
+								 
+								 ORDER BY mod_order ASC
+13/10/2018 08:26:43 AM /admincc/modules/category/listing.php
+File : 
+Query time : 0.0171470642
+IP:127.0.0.1SELECT 	con_currency,con_exchange from configuration WHERE con_lang_id=1
+13/10/2018 08:26:51 AM /admincc/modules/products_step/add.php
+File : 
+Query time : 0.0180048943
+IP:127.0.0.1SELECT * 
+										 FROM admin_user, admin_user_right, modules
+										 WHERE adm_id = adu_admin_id AND mod_id = adu_admin_module_id AND adm_isadmin = 0 AND
+										 adm_loginname='admin' AND adm_password='c4ca4238a0b923820dcc509a6f75849b' AND adm_active=1 AND adm_delete = 0
+										 AND mod_id = 10
+13/10/2018 08:26:51 AM /admincc/modules/products_step/add.php
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0279159546
+IP:127.0.0.1SHOW FIELDS FROM products_step
+13/10/2018 08:27:03 AM /admincc/modules/construction/listing.php
+File : 
+Query time : 0.0188691616
+IP:127.0.0.1SELECT count(*) AS count
+                                     FROM constructions
+                                     WHERE 1 
+13/10/2018 08:27:04 AM /admincc/modules/construction/add.php
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0141949654
+IP:127.0.0.1SHOW FIELDS FROM constructions
+13/10/2018 08:27:25 AM /admincc/modules/investor/add.php
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0335879326
+IP:127.0.0.1SHOW FIELDS FROM investors
+13/10/2018 08:27:34 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0280270576
+IP:127.0.0.1SELECT * FROM city WHERE cit_parent_id = 0
+13/10/2018 08:27:35 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0235881805
+IP:127.0.0.1SELECT * FROM designs
+13/10/2018 08:27:39 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0262210369
+IP:127.0.0.1SHOW FIELDS FROM products
+13/10/2018 08:27:39 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0113108158
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+13/10/2018 08:27:39 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : 
+Query time : 0.0012989044
+IP:127.0.0.1SELECT * FROM products 
+                                   INNHER JOIN products_detail ON prd_id = pro_id
+                                   WHERE pro_id = 1
+13/10/2018 08:27:40 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : 
+Query time : 0.0015361309
+IP:127.0.0.1SELECT * FROM city WHERE cit_parent_id = 2
+13/10/2018 08:32:27 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0226309299
+IP:127.0.0.1SHOW FIELDS FROM products
+13/10/2018 08:32:27 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0117118359
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+13/10/2018 08:32:28 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0012209415
+IP:127.0.0.1SELECT * FROM city WHERE cit_parent_id = 0
+13/10/2018 08:32:28 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0011479855
+IP:127.0.0.1SELECT * FROM investors
+13/10/2018 08:34:14 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0285098553
+IP:127.0.0.1SHOW FIELDS FROM products
+13/10/2018 08:34:14 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0137279034
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+13/10/2018 08:34:14 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : 
+Query time : 0.0011548996
+IP:127.0.0.1SELECT * FROM products 
+                                   INNHER JOIN products_detail ON prd_id = pro_id
+                                   WHERE pro_id = 1
+13/10/2018 08:35:35 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0313448906
+IP:127.0.0.1SHOW FIELDS FROM products
+13/10/2018 08:35:35 AM /admincc/modules/products/edit.php?record_id=1&url=L2FkbWluY2MvbW9kdWxlcy9wcm9kdWN0cy9saXN0aW5nLnBocA==
+File : D:\xampp_7.2\htdocs\bdslocal\classes\generate_form.php
+Query time : 0.0115361214
+IP:127.0.0.1SHOW FIELDS FROM products_detail
+13/10/2018 08:35:35 AM /admincc/modules/products/listing.php
+File : 
+Query time : 0.0014851093
+IP:127.0.0.1SELECT * FROM city WHERE cit_parent_id = 0
+13/10/2018 08:35:38 AM /sunshine-city-khu-do-thi-ciputra-nam-thang-long-tay-ho-ha-noi-p1
+File : 
+Query time : 0.0012609959
+IP:127.0.0.1SELECT * FROM categories
+                                  WHERE cat_active = 1
+13/10/2018 08:43:48 AM /du-an-cp2
+File : 
+Query time : 0.0010290146
+IP:127.0.0.1SELECT * FROM categories
+                                  WHERE cat_active = 1
+13/10/2018 08:43:50 AM /phong-thuy-cn8
+File : 
+Query time : 0.0012159348
+IP:127.0.0.1SELECT * FROM categories WHERE cat_id = 8 LIMIT 1
+13/10/2018 08:43:53 AM /
+File : 
+Query time : 0.0010421276
+IP:127.0.0.1SELECT * 
+                                                    FROM products
+                                                    WHERE pro_active = 1
+13/10/2018 08:43:54 AM /sunshine-city-khu-do-thi-ciputra-nam-thang-long-tay-ho-ha-noi-p1
+File : 
+Query time : 0.0018811226
+IP:127.0.0.1SELECT * FROM products
+                        INNHER JOIN products_detail ON prd_id = pro_id
+                        WHERE pro_id = 1
+                        LIMIT 1
+13/10/2018 09:13:56 AM /sunshine-city-khu-do-thi-ciputra-nam-thang-long-tay-ho-ha-noi-p1
+File : 
+Query time : 0.0010530949
+IP:127.0.0.1SELECT * FROM products
+                        INNHER JOIN products_detail ON prd_id = pro_id
+                        WHERE pro_id = 1
+                        LIMIT 1
+31/10/2018 06:11:19 PM /
+File : 
+Query time : 0.0191738605
+IP:127.0.0.1SELECT * FROM categories
+                                  WHERE cat_active = 1
+31/10/2018 06:11:19 PM /
+File : 
+Query time : 0.0113439560
+IP:127.0.0.1SELECT * 
+                                                    FROM products
+                                                    WHERE pro_active = 1
+31/10/2018 06:11:29 PM /kinh-nghiem-mua-nha-cn7
+File : D:\xampp_7.2\htdocs\bdslocal\classes\database.php
+Query time : 0.0104157925
+IP:127.0.0.1SELECT COUNT(*) AS count FROM news
+									WHERE 1 AND new_active = 1 AND new_cat_id = 7
+31/10/2018 06:11:41 PM /sunshine-city-khu-do-thi-ciputra-nam-thang-long-tay-ho-ha-noi-p1
+File : 
+Query time : 0.0351049900
+IP:127.0.0.1SELECT * FROM products
+                        INNHER JOIN products_detail ON prd_id = pro_id
+                        WHERE pro_id = 1
+                        LIMIT 1
+14/11/2018 04:28:20 PM /
+File : 
+Query time : 0.0851140022
+IP:127.0.0.1SELECT * FROM categories
+                                  WHERE cat_active = 1
+14/11/2018 04:28:20 PM /
+File : 
+Query time : 0.0163650513
+IP:127.0.0.1SELECT * 
+                                                    FROM products
+                                                    WHERE pro_active = 1
+14/11/2018 04:28:23 PM /sunshine-city-khu-do-thi-ciputra-nam-thang-long-tay-ho-ha-noi-p1
+File : 
+Query time : 0.0349338055
+IP:127.0.0.1SELECT * FROM products
+                        INNHER JOIN products_detail ON prd_id = pro_id
+                        WHERE pro_id = 1
+                        LIMIT 1
+14/11/2018 04:28:23 PM /sunshine-city-khu-do-thi-ciputra-nam-thang-long-tay-ho-ha-noi-p1
+File : 
+Query time : 0.0136671066
+IP:127.0.0.1SELECT * FROM news 
+                                        WHERE new_pro_id = 1
+                                        LIMIT 5
+14/11/2018 04:28:26 PM /du-an-cp2
+File : 
+Query time : 0.0021770000
+IP:127.0.0.1SELECT * FROM categories WHERE cat_id = 2 LIMIT 1
+14/11/2018 04:28:26 PM /du-an-cp2
+File : D:\xampp_7.2\htdocs\bdslocal\classes\database.php
+Query time : 0.0030200481
+IP:127.0.0.1SELECT COUNT(*) AS count FROM products
+									WHERE 1  AND pro_cat_id IN (3,4,5,6
+) AND pro_active = 1
+14/11/2018 04:28:36 PM /du-an-cp2
+File : 
+Query time : 0.0011889935
+IP:127.0.0.1SELECT * FROM categories WHERE cat_id = 2 LIMIT 1
+14/11/2018 04:28:41 PM /sunshine-city-khu-do-thi-ciputra-nam-thang-long-tay-ho-ha-noi-p1
+File : 
+Query time : 0.0011198521
+IP:127.0.0.1SELECT * FROM products
+                        INNHER JOIN products_detail ON prd_id = pro_id
+                        WHERE pro_id = 1
+                        LIMIT 1

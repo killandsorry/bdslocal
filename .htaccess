@@ -1,0 +1,19 @@
+RewriteEngine On
+#([^/]*)-help([0-9]*)
+
+#index
+RewriteRule	^(\/?)$ main/index.php
+
+#list project
+RewriteRule	([^/]*)-cp([0-9])$ main/list_products.php?cat_id=$2
+RewriteRule	([^/]*)-cp([0-9]),([0-9])$ main/list_products.php?cat_id=$2&page=$3
+
+# detail project
+RewriteRule	([^/]*)-p([0-9])$ main/detail.php?id=$2
+
+# list news
+RewriteRule	([^/]*)-cn([0-9])$ main/news_list.php?cat_id=$2
+RewriteRule	([^/]*)-cn([0-9]),([0-9])$ main/news_list.php?cat_id=$2&page=$3
+
+# detail news
+RewriteRule	^news/([^/]*)-n([0-9])$ main/news_detail.php?id=$2
